@@ -117,10 +117,9 @@ p:last-of-type {
     padding-bottom: 2%;
     color: rgb(46, 2, 2);
     background-color: rgba(255, 255, 255, 0.603);
-    border: 1px solid blue;
-    padding-left: 0;
-    padding-right: 0;
-    width: min-content;
+    padding: 5px 8px;
+    border-radius: 7px;
+
 }
 
 .canva-slide {
