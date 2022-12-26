@@ -7,16 +7,13 @@
 
 body {
   margin: 0;
+  background-image: url("../Fotos/img12.jpg");
+  background-size: 100vw auto;
+  background-attachment: fixed;
+  background-repeat: no-repeat
 }
 
-.background {
-  position: absolute;
-  z-index: -1;
-  width: 100%;
-  object-fit: cover;
-  object-position: 100% 0%;
-  height: 100%;
-}
+
 
 #header {
   display: flex;
@@ -78,18 +75,37 @@ nav {
 .contacting-div {
   font-family: 'Dosis';
   font-size: 2rem;
+  margin-bottom: 10%;
 }
 
 .icon {
   font-size: 3rem;
 }
 
-legend {
+.icon-referrence {
   font-family: 'Dosis';
   font-size: 2rem;
+  margin-bottom: 10%;
+  margin-top: 5%;
 }
 
-@media only screen and (max-width: 1000px) {
+#footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.582);
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+
+.footer-text {
+  font-size: 1.2rem;
+  margin: 0;
+  font-family: 'Dosis', sans-serif;
+}
+
+@media only screen and (max-width: 815px) {
   #header {
     flex-direction: column;
     align-items: center;
@@ -100,16 +116,10 @@ legend {
   }
 
   body {
-    width: 100%;
-  }
-
-  .background {
-    height: auto;
-    top: 35%
+    background-size: 100vh auto;
   }
 
   nav {
-    flex-direction: column;
     margin: auto 0px;
     align-items: center;
     margin-left: 5%;
@@ -128,11 +138,6 @@ legend {
 
   #contacting {
     align-items: center;
-  }
-
-  .contacting-div {
-    margin-bottom: 5%;
-
   }
 
   #contacting-body {
