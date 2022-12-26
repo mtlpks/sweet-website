@@ -37,6 +37,7 @@ body {
   font-size: 2rem;
   border-radius: 5px;
   padding: 4px 10px;
+  text-decoration: none;
 }
 
 #pedido-bt:hover {
@@ -46,6 +47,10 @@ body {
 #pedido-bt:active {
   background-color: #6b576a;
   color: white;
+}
+
+#pedido-bt:visited {
+  color: black;
 }
 
 #header {
