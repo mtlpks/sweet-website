@@ -80,6 +80,10 @@ nav {
   font-size: 2rem;
 }
 
+.icon {
+  font-size: 3rem;
+}
+
 @media only screen and (max-width: 1000px) {
   #header {
     flex-direction: column;
@@ -104,6 +108,10 @@ nav {
     margin: auto 0px;
     align-items: center;
     margin-left: 5%;
+  }
+
+  .nav-link {
+    margin: 5% 0;
   }
 
   .bg-mobile {
