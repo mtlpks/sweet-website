@@ -84,6 +84,11 @@ nav {
   font-size: 3rem;
 }
 
+legend {
+  font-family: 'Dosis';
+  font-size: 2rem;
+}
+
 @media only screen and (max-width: 1000px) {
   #header {
     flex-direction: column;
@@ -127,8 +132,13 @@ nav {
 
   .contacting-div {
     margin-bottom: 5%;
+
+  }
+
+  #contacting-body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
   }
 }
