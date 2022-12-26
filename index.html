@@ -5,7 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bella Moraes Confeitaria</title>
-    <link rel="stylesheet" href="./CSS/styles.css" />
+    <link rel="stylesheet" href="./CSS/home-styles.css" />
+
+    <script src="https://kit.fontawesome.com/4222a0128d.js" crossorigin="anonymous"></script>
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -18,66 +21,22 @@
       href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./CSS/slide-style.css" />
   </head>
   <body>
+    <img class="background" src="./Fotos/img7.jpg">
     <div id="header">
-      <img id="header-img" src="./Logo/logosmall.svg" />
+      <a id="logo-link" href="./index.html"><img id="header-img" src="./Logo/logosmall.svg" /></a>
       <nav id="nav-bar">
-        <a class="nav-link" href="/#menus">Cardápio</a>
-        <a class="nav-link" href="">Pedidos</a>
+        <a class="nav-link" target="_blank" href="https://www.canva.com/design/DAFEGorpJvo/bteihZr4lx4nHDIIkTzjVg/view?utm_content=DAFEGorpJvo&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">Cardápio</a>
+        <a class="nav-link" href="./pedidos.html">Pedidos</a>
       </nav>
     </div>
     <section id="main">
       <div id="hero">
-        <h4 id="hero-text">Na dúvida, seja doce.</h4>
-      </div>
-
-      <div data-slide="slide" class="slide">
-        <nav class="slide-nav">
-          <div class="slide-thumbs"></div>
-          <button class="slide-prev">Previous</button>
-          <button class="slide-next">Next</button>
-        </nav>
-        <div class="slide-items">
-          <img class="slide-img" src="./Fotos/img9.jpg" alt="Cat 1" />
-          <img class="slide-img" src="./Fotos/img3.jpg" alt="Cat 2" />
-          <img class="slide-img" src="./Fotos/img1.jpg" alt="Cat 3" />
-          <img class="slide-img" src="./Fotos/img7.jpg" alt="Cat 4" />
-          <img class="slide-img" src="./Fotos/img6.jpg" alt="Cat 4" />
-          <img class="slide-img" src="./Fotos/img8.jpg" alt="Cat 4" />
-          <img class="slide-img" src="./Fotos/img4.jpg" alt="Cat 4" />
-          <img class="slide-img" src="./Fotos/img10.jpg" alt="Cat 4" />
-        </div>
-      </div>
-      <script src="JS/slide-stories.js"></script>
-      <p id="hero-info">Bolos feitos sob encomenda</p>
-      <p>Entrega em regiões de Jacarepaguá - Consulte disponibilidade</p>
-      <div id="menus">
-        <p id="cardapios-header">Cardápios</p>
-        <div id="canva-slides">
-          <div class="canva-slide">
-            <iframe
-              loading="lazy"
-              class="canva-iframe"
-              src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFEGorpJvo&#x2F;view?embed"
-              allowfullscreen="allowfullscreen"
-              allow="fullscreen"
-            >
-            </iframe>
-          </div>
-
-          <div class="canva-slide">
-            <iframe
-              loading="lazy"
-              class="canva-iframe"
-              src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFPW8aBdWg&#x2F;view?embed"
-              allowfullscreen="allowfullscreen"
-              allow="fullscreen"
-            >
-            </iframe>
-          </div>
-        </div>
+        <h4 id="hero-text" class="bg-mobile">Na dúvida, seja doce.</h4>
+        <p class="hero-info bg-mobile">Bolos feitos sob encomenda</p>
+        <p class="hero-info bg-mobile">Entrega em regiões de Jacarepaguá</p>
+        <button id="pedido-bt">Faça já o seu pedido</button>
       </div>
     </section>
   </body>
