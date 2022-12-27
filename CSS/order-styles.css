@@ -27,6 +27,7 @@ body {
   color: #90378c;
   padding: 5px 9px;
   box-shadow: inset 0 0 0 0 #90378c;
+  font-size: 1.3rem;
   color: #54b3d6;
   margin: 0 10px;
   padding: 0 3px;
@@ -44,7 +45,7 @@ body {
 }
 
 #header-img {
-  height: 120px;
+  height: 80px;
 }
 
 #logo-link {
@@ -53,7 +54,6 @@ body {
 
 nav {
   font-family: "Dosis", sans-serif;
-  font-size: 1.7rem;
   font-weight: bold;
   display: flex;
   margin: auto 5% auto 2px;
@@ -62,20 +62,23 @@ nav {
 
 .subheader {
     font-family: 'Signika', cursive;
-    font-size: 4rem;
+    font-size: 2.2rem;
 }
 
 #contacting {
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
   margin-right: 4%;
+  align-items: flex-end;
 }
 
 .contacting-div {
   font-family: 'Dosis';
   font-size: 2rem;
   margin-bottom: 10%;
+  display: flex;
+  flex-direction: column;
+  
 }
 
 .icon {
@@ -100,7 +103,7 @@ nav {
 }
 
 .footer-text {
-  font-size: 1.2rem;
+  font-size: 1rem;
   margin: 0;
   font-family: 'Dosis', sans-serif;
 }
