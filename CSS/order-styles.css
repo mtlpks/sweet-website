@@ -10,10 +10,8 @@ body {
   background-image: url("../Fotos/img12.jpg");
   background-size: 100vw auto;
   background-attachment: fixed;
-  background-repeat: no-repeat
+  background-repeat: no-repeat;
 }
-
-
 
 #header {
   display: flex;
@@ -61,8 +59,8 @@ nav {
 }
 
 .subheader {
-    font-family: 'Signika', cursive;
-    font-size: 2.2rem;
+  font-family: "Signika", cursive;
+  font-size: 2.2rem;
 }
 
 #contacting {
@@ -72,13 +70,16 @@ nav {
   align-items: flex-end;
 }
 
+.contacting-link:active {
+  color: pink;
+}
+
 .contacting-div {
-  font-family: 'Dosis';
+  font-family: "Dosis";
   font-size: 2rem;
   margin-bottom: 10%;
   display: flex;
   flex-direction: column;
-  
 }
 
 .icon {
@@ -86,7 +87,7 @@ nav {
 }
 
 .icon-referrence {
-  font-family: 'Dosis';
+  font-family: "Dosis";
   font-size: 2rem;
   margin-bottom: 10%;
   margin-top: 5%;
@@ -105,7 +106,7 @@ nav {
 .footer-text {
   font-size: 1rem;
   margin: 0;
-  font-family: 'Dosis', sans-serif;
+  font-family: "Dosis", sans-serif;
 }
 
 @media only screen and (max-width: 815px) {
@@ -130,7 +131,6 @@ nav {
     margin-right: 7%;
   }
 
-
   .nav-link {
     font-size: 1.1rem;
     margin-left: 5%;
@@ -147,16 +147,16 @@ nav {
     align-items: center;
     margin-top: 15%;
   }
-
+/* 
   .contacting-div {
     margin-right: 5%;
-  }
+  } */
 
   #contacting-body {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     align-items: center;
     text-align: center;
     margin-top: 15%;
   }
-
 }

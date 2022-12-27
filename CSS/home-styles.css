@@ -10,7 +10,7 @@ body {
   background-image: url("../Fotos/img7.jpg");
   background-size: 100vw auto;
   background-attachment: fixed;
-  background-repeat: no-repeat
+  background-repeat: no-repeat;
 }
 
 #hero-text {
@@ -27,7 +27,7 @@ body {
 
 #pedido-bt {
   background-color: #e9b8ec;
-  font-family: 'Dosis', sans-serif;
+  font-family: "Dosis", sans-serif;
   border: none;
   font-size: 1.3rem;
   border-radius: 5px;
@@ -94,11 +94,11 @@ nav {
   position: sticky;
 }
 
-.hero-info, #footer {
-  font-family: 'Dosis', sans-serif;
+.hero-info,
+#footer {
+  font-family: "Dosis", sans-serif;
   font-size: 1.6rem;
 }
-
 
 #footer {
   position: fixed;
@@ -116,7 +116,6 @@ nav {
 }
 
 @media only screen and (max-width: 1000px) {
-
   #header {
     align-items: center;
   }
