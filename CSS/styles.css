@@ -10,23 +10,28 @@ body {
 /* Header */
 
 header {
-    background-color: beige;
+    /* background-color: beige; */
+    background-color: #603663;
     display: flex;
     justify-content: center;
     height: 120px;
     align-items: flex-end;
     gap: 3rem;
+    box-shadow: -1px 4px 4px rgba(0, 0, 0, 0.432);
+    z-index: 10;
+    position: relative;
     
 }
 
 .header-link {
-    font-family: 'Roboto';
+    font-family: 'Dosis';
     font-weight: 300;
     font-size: 1.5rem;
-    letter-spacing: -1px;
+    text-decoration: none;
     margin: 10px;
     white-space: nowrap;
-    color: #90378C;
+    
+    color: #ffffff;
     padding: 2px 4px;
 }
 
@@ -39,7 +44,7 @@ header {
 
 #header-logo {
     height: 240px;
-    width: min-content;
+    /* width: min-content; */
     position: absolute;
     top: 40px;
 }
@@ -66,20 +71,13 @@ header {
 #body {
     display: flex;
     justify-content: space-between;
-    background-color: rgb(231, 231, 189);
+    /* background-color: rgb(231, 231, 189); */
+    background-color: #f8e0ca;
 }
 
 .layout-img {
-    width: 350px;
+    width: 320px;
     object-fit: cover;
-}
-
-.layout-img {
-    border-top-right-radius: 6px;
-}
-
-#bottom-image {
-    border-top-left-radius: 6px;
 }
 
 #middle-elements {
@@ -88,16 +86,19 @@ header {
     min-width: 400px;
     max-width: 800px;
     font-size: 1.4rem;
-    font-weight: 300;
+    font-weight: 400;
     font-family: 'Dosis';
     text-justify: inter-word;
-    margin-top: 60px;
+    padding-top: 90px;
     text-align: center;
+    color: #603663;
+    background-color: #f8e0ca;
 }
 
 #primary-text {
     margin-top: 0;
     font-size: 1.6rem;
+    color: #603663;
 }
 
 #bottom-image {
@@ -122,7 +123,15 @@ header {
     z-index: 1;
 }
 
+.map {
+    width: 90%;
+}
 
+#canva-slide {
+    width: 270px;
+    height: 480px;
+
+}
 
 @media only screen and (max-width:1000px) {
     #body {
@@ -173,7 +182,7 @@ header {
 
     .header-link {
         padding-top: 5px;
-        margin: none;
+        margin: 0;
         font-size: 1rem;
     }
 
@@ -182,7 +191,7 @@ header {
     }
 
     .layout-img {
-        margin-top: 2rem;
+        /* margin-top: 2rem; */
         width: 100%;
     }
 
@@ -191,5 +200,13 @@ header {
         width: 100%;
         background-position-y: -3rem;
         border-radius: 0;
+    }
+
+    .map {
+        width: 100%;
+    }
+
+    #canva-slide {
+        margin-bottom: 2rem;
     }
 }
