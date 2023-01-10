@@ -30,9 +30,9 @@ header {
     text-decoration: none;
     margin: 10px;
     white-space: nowrap;
-    
     color: #ffffff;
     padding: 2px 4px;
+    transition: 0.3s;
 }
 
 .header-link:hover {
@@ -45,15 +45,16 @@ header {
 #header-logo {
     height: 240px;
     /* width: min-content; */
-    position: absolute;
+    position: relative;
     top: 40px;
+    border-radius: 50%;
+
 }
 
 #logo-div {
     display: flex;
     flex: 0 0 auto;
     justify-content: center;
-    position: relative;
     width: 180px;
     height: 180px;
 }
@@ -80,7 +81,7 @@ header {
     object-fit: cover;
 }
 
-#middle-elements {
+.middle-elements {
     width: 700px;
     padding: 3rem 3rem 0 3rem;
     min-width: 400px;
@@ -124,7 +125,7 @@ header {
 }
 
 .map {
-    width: 90%;
+    width: 100%;
 }
 
 #canva-slide {
@@ -151,7 +152,7 @@ header {
         border-radius: 0;
     }
 
-    #middle-elements {
+    .middle-elements {
         width: 360px;
         margin-top: 0;
         min-width: 360px;
@@ -203,10 +204,16 @@ header {
     }
 
     .map {
-        width: 100%;
+        padding-bottom: 4rem;
     }
 
     #canva-slide {
         margin-bottom: 2rem;
+    }
+
+    #menu-elements {
+        display: flex;
+        justify-content: center;
+        width: 110vw;
     }
 }
